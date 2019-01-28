@@ -1,0 +1,5 @@
+rofi.modi:          combi,window,drun,ssh
+rofi.combi-modi:    window,drun,ssh
+rofi.theme:         sidebar
+rofi.font:          hack 10
+rofi.theme:         ~/.cache/wal/colors-rofi-dark.rasi

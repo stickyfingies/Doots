@@ -1,0 +1,3 @@
+URxvt*scrollBar:  false
+URxvt*internalBorder: 42
+URxvt*font: xft:ubuntumononerdfont:size=12:antialias=true

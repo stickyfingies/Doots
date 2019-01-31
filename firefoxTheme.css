@@ -1,54 +1,91 @@
-#main-window[lwthemetextcolor="bright"] .panel-arrow { filter: invert(33%); }
-.panel-subview-body,#appMenu-zoomReset-button,.panel-mainview,.panel-subviews {
-  color: var(--color1) !important;
-  background: var(--background) !important;}
-.panel-subview-footer,[class^="PanelUI-"] {
-  color: var(--color1) !important;
-  background: var(--background) !important;}
+#main-window[lwthemetextcolor="bright"] .panel-arrow 
+{
+  filter: invert(33%);
+}
 
-/*Darken urlbar popups to match theme*/
-#PopupAutoCompleteRichResult .ac-title-text{
+.panel-subview-body, #appMenu-zoomReset-button, .panel-mainview, .panel-subviews
+{
   color: var(--color1) !important;
-  filter: opacity(.7);}
-#PopupAutoCompleteRichResult .autocomplete-richlistbox {
-  background: var(--background) !important;}
-#main-window[lwthemetextcolor="bright"] [class^="search-"]{
+  background: var(--background) !important;
+}
+
+.panel-subview-footer,[class^="PanelUI-"]
+{
   color: var(--color1) !important;
-  background: var(--background) !important;}
-panel[type="autocomplete"],panel[type="autocomplete-richlistbox"],.autocomplete-history-popup {
-  border-width: 0px !important;}
+  background: var(--background) !important;
+}
 
-/*stops possible clashes with extension popups*/
-.webextension-popup-browser {
-  background: var(--background);}
+/* Darken urlbar popups to match theme */
 
-:root {
+#PopupAutoCompleteRichResult .ac-title-text
+{
+  color: var(--color1) !important;
+  filter: opacity(.7);
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistbox 
+{
+  background: var(--background) !important;
+}
+
+#main-window[lwthemetextcolor="bright"] [class^="search-"]
+{
+  color: var(--color1) !important;
+  background: var(--background) !important;
+}
+
+panel[type="autocomplete"], panel[type="autocomplete-richlistbox"], .autocomplete-history-popup 
+{
+  border-width: 0px !important;
+}
+
+/* Stops possible clashes with extension popups */
+
+.webextension-popup-browser
+{
+  background: var(--background);
+}
+
+:root
+{
   --tabs-border: transparent !important; /* Remove borders from active tab and below tabs */
 }
 
 
 /* Tab bar customization */
-:root:-moz-lwtheme-brighttext {
+
+:root:-moz-lwtheme-brighttext
+{
  --chrome-background-color: var(--background) !important;
  --chrome-color: var(--color1) !important;
  --chrome-secondary-background-color: var(--background) !important;
- /*--toolbox-border-bottom-color: #232324 !important;*/
-  --toolbox-border-bottom-color: var(--backrgound) !important;
+ /* --toolbox-border-bottom-color: #232324 !important; */
+ --toolbox-border-bottom-color: var(--background) !important;
 }
-/*.tabbrowser-tab[visuallyselected="true"]:-moz-lwtheme {
-	color: #dddddd !important;
-}*/
+
+/*
+.tabbrowser-tab[visuallyselected="true"]:-moz-lwtheme
+{
+  color: #dddddd !important;
+}
+*/
 
 
 /* Fixing tabGroups menu */
-#tabGroups-tabview-button .toolbarbutton-text {
-	max-height: inherit !important;
+
+#tabGroups-tabview-button .toolbarbutton-text 
+{
+  max-height: inherit !important;
 }
-toolbar {
-	min-height: 37px !important;
+
+toolbar 
+{
+  min-height: 37px !important;
 }
-toolbar .toolbarbutton-1 {
-	padding: 3px 2px !important;
+
+toolbar .toolbarbutton-1 
+{
+  padding: 3px 2px !important;
 }
 
 
@@ -60,39 +97,47 @@ toolbar .toolbarbutton-1 {
  * Contributor(s): Andrei Cristian Petcu
  */
 
-.browserContainer {
+.browserContainer
+{
   background-color: var(--background, hsla(0,0%,100%,.8)) !important;
 }
 
-#sidebar {
+#sidebar
+{
     background-color: var(--background) !important;
 }
 
-.sidebar-placesTree {
+.sidebar-placesTree
+{
     background-color: var(--background) !important;
 }
 
 
-/* recolor sidebar to match rest of dark  theme */
-#sidebar-header {
+/* Recolor sidebar to match rest of dark theme */
+
+#sidebar-header
+{
     background-color: var(--background) !important;
     color: var(--color1) !important;
-    border:0px !important;
+    border: 0px !important;
 }
 
-#sidebar, #sidebar-header {
-	border-right: 0px solid var(--background) !important;
+#sidebar, #sidebar-header
+{
+  border-right: 0px solid var(--background) !important;
 }
 
 
-scrollbar, scrollbar * {
+scrollbar, scrollbar *
+{
   -moz-appearance: none !important;
   background: none !important;
   margin-left: -19px !important;
 }
 
 
-#urlbar {
+#urlbar
+{
     background-color: var(--background) !important;
     color: var(--color1) !important;
     border-color: var(--color1)!important;
@@ -101,17 +146,20 @@ scrollbar, scrollbar * {
 #forward-button,
 #reload-button,
 #stop-button,
-#back-forward-dropmarker {
-    display:none;
+#back-forward-dropmarker
+{
+    display: none;
 }
 
-tab[selected="true"] {
+tab[selected="true"]
+{
     background-color: var(--background) !important;
     color: var(--color2) !important;
     font-weight: bold !important;
 }
 
-tab {
+tab
+{
     background-color: var(--background) !important;
     color: var(--color1) !important;
     font-weight: bold !important;
@@ -125,27 +173,37 @@ tab {
 }
 
 /* Hide white bar. Not necessary, but helpful. */
-#sidebar-splitter {
+
+#sidebar-splitter
+{
   opacity: 0 !important;
 }
 
 
-/* change up usercontext label */
-#userContext-icons{
-  background:var(--background)!important;
-  margin:auto 3px!important;
-  border-radius:2px!important;
-  padding:0 2px 0 5px!important;
+/* Change up usercontext label */
+
+#userContext-icons
+{
+  background: var(--background)!important;
+  margin: auto 3px!important;
+  border-radius: 2px!important;
+  padding: 0 2px 0 5px!important;
 }
-#userContext-label{
-  color:var(--background) !important;
+
+#userContext-label
+{
+  color: var(--background) !important;
 }
-#userContext-indicator{
-  fill:var(--background)!important;
-  margin-right:2px!important;
+
+#userContext-indicator
+{
+  fill: var(--background)!important;
+  margin-right: 2px!important;
 }
-#userContext-indicator[data-identity-icon="circle"]{
-  display:none!important;
+
+#userContext-indicator[data-identity-icon="circle"]
+{
+  display: none!important;
 }
 
 
@@ -157,50 +215,57 @@ tab {
  */
 
 /* Hide info icon for sites that don't have permissions */
-#urlbar :not(.grantedPermissions) #identity-icon {
-        transition: 300ms !important; /* Animate icon hiding */
-	opacity: 0 !important; /* Make icons transparent */
-	-moz-margin-end: -1.1em !important; /* Hide icons by offsetting them */
+
+#urlbar :not(.grantedPermissions) #identity-icon
+{
+  transition: 300ms !important;
+  opacity: 0 !important;
+  -moz-margin-end: -1.1em !important;
 }
 
 /* Show info icon on navbar hover, except for new tab page search icon */
-#urlbar[pageproxystate="valid"]:hover #identity-icon {
-        transition: 300ms !important; /* Animate icon showing */
-	opacity: 1 !important; /* Make icons opaque */
-	-moz-margin-end: initial !important; /* Use initial margins to show icons */
+
+#urlbar[pageproxystate="valid"]:hover #identity-icon
+{
+        transition: 300ms !important;
+	opacity: 1 !important;
+	-moz-margin-end: initial !important;
 }
 
 
-/* Minimize sidebar header to a light blue stripe (except Bookmarks, History, Sync'd Tabs); appears normally on hover 
-*/
+/* Minimize sidebar header to a light blue stripe (except Bookmarks, History, Sync'd Tabs); appears normally on hover */
+
 #sidebar-box:not([sidebarcommand="viewBookmarksSidebar"]):not([sidebarcommand="viewHistorySidebar"]):not([sidebarcommand="viewTabsSidebar"])
-  #sidebar-header:not(:hover) {
-    max-height: 5px !important;
-    min-height: 5px !important;
-    padding: 0 !important;
-    background-color: var(--background) !important;
-    opacity: 1 !important;
+#sidebar-header:not(:hover)
+{
+  max-height: 5px !important;
+  min-height: 5px !important;
+  padding: 0 !important;
+  background-color: var(--background) !important;
+  opacity: 1 !important;
 }
+
 #sidebar-box:not([sidebarcommand="viewBookmarksSidebar"]):not([sidebarcommand="viewHistorySidebar"]):not([sidebarcommand="viewTabsSidebar"])
-  #sidebar-header:not(:hover) #sidebar-switcher-target {
-    /* BAD NEWS: display: none !important; */
-    opacity: 0 !important;
+#sidebar-header:not(:hover) #sidebar-switcher-target
+{
+  opacity: 0 !important;
 }
 
 #minimize-button,
 #restore-button,
-#close-button{
-    display: none !important;
+#close-button
+{
+  display: none !important;
 }
 
 #nav-bar.browser-toolbar
 {
-    background-color: var(--background) !important;
+  background-color: var(--background) !important;
 }
 
 #TabsToolbar
 {
-    background-color: var(--background) !important;
+  background-color: var(--background) !important;
 }
 
 #tabbrowser-tabs ~ #alltabs-button,
@@ -208,11 +273,13 @@ tabbrowser toolbarbutton[class^="scrollbutton"],
 #TabsToolbar toolbarbutton[class^="scrollbutton"],
 .tab-close-button.close-icon,
 #TabsToolbar .tabbrowser-tab:after,
-#TabsToolbar .tabbrowser-tab:before {
+#TabsToolbar .tabbrowser-tab:before
+{
   display: none !important;
 }
 
-#content browser {
+#content browser
+{
  margin-right: -14px !important;
  overflow-y: scroll;
  overflow-x: hidden;

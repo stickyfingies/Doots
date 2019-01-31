@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/stickyfingies/Downloads/colorful-space.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#2c2440",
+        "foreground": "#f5cab8",
+        "cursor": "#f5cab8"
+    },
+    "colors": {
+        "color0": "#2c2440",
+        "color1": "#FE5D78",
+        "color2": "#EB8A7D",
+        "color3": "#5C6088",
+        "color4": "#8C4E80",
+        "color5": "#359BA9",
+        "color6": "#11F4DC",
+        "color7": "#f5cab8",
+        "color8": "#ab8d80",
+        "color9": "#FE5D78",
+        "color10": "#EB8A7D",
+        "color11": "#5C6088",
+        "color12": "#8C4E80",
+        "color13": "#359BA9",
+        "color14": "#11F4DC",
+        "color15": "#f5cab8"
+    }
+}

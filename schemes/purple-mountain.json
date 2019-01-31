@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/stickyfingies/Downloads/purple-mountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b112d",
+        "foreground": "#e3c5cd",
+        "cursor": "#e3c5cd"
+    },
+    "colors": {
+        "color0": "#1b112d",
+        "color1": "#504784",
+        "color2": "#6E4F8A",
+        "color3": "#7A6495",
+        "color4": "#976898",
+        "color5": "#C7799B",
+        "color6": "#AE8AAE",
+        "color7": "#e3c5cd",
+        "color8": "#9e898f",
+        "color9": "#504784",
+        "color10": "#6E4F8A",
+        "color11": "#7A6495",
+        "color12": "#976898",
+        "color13": "#C7799B",
+        "color14": "#AE8AAE",
+        "color15": "#e3c5cd"
+    }
+}
